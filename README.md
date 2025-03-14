@@ -2,20 +2,12 @@
 Learning Spring Framework core and all other spring framework concepts
 
 ## MY LEARNING APPROACH FOR INTERVIEW
-### 1. FROM INTERVIEWBIT
-* Get/download pdf from interview bit and learn
-
-### 2. FROM GFG INTERVIEWBIT
-* Get the link and learn from there
+### 1. FROM INTERVIEWBIT - PDF ATTACHED (CHECK AND LEARN)
+### 2. FROM GFG INTERVIEWBIT (https://www.geeksforgeeks.org/spring/)
+### 3. PRACTICE CODE AND LEARN (Will be adding codes here and learn in this repo only)
 
 
-### 3. PRACTICE CODE AND LEARN
-* See the github edureka java springboot microservice learning and how different java code is written to build microservice application
-
-
-## MY LEARNING (SPRING FRAMEWORK, CORE TO SPRING BOOT)
-* https://www.geeksforgeeks.org/spring-boot/
-* Parallelly do code and learn
+## MY LEARNING (SPRING FRAMEWORK, CORE , SPRING MVC, SPRING AOP, SPRING SECURITY ETC.)
 ### MAVEN LEARNING
 * Maven is a build tool, like gradle.
 * Let say in spring or springboot project we need to use SQL connector, so for that we need Sql connector jar files to use in our project.
