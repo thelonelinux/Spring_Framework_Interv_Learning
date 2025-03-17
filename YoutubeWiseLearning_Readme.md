@@ -5,6 +5,8 @@
 * LEARN ABOUT REGEX IN JAVA
 
 ## MY LEARNING (SPRING FRAMEWORK PLUS)
+* In Future Learn this Course also after doing below topic wise : https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
+* https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
 ### PLAYLIST OF YOUTUBE (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 #### INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
@@ -104,7 +106,7 @@
 * TYPES OF BEANFACTORY OR IOC CONTAINERS
   * 1. BEAN FACTORY
     * It is an Interface class in Spring Framework.
-    * It does not supports annotation.
+    * It does not support annotation based configuration
     * Bean Configuration to be done in XML
     * Important methods available in BeanFactory interface and there role
       * containsBean(String name) -> Parameter as name of Bean. To Check if XML container contains that bean or not.
@@ -114,15 +116,63 @@
       * isSingleton(String name) -> Scope of the bean if it is singleton or not (Singleton bean, same object is created once, and will be passed everywhere whenever it is injected.)
   * 2. APPLICATION CONTEXT
     * It supports annotation based configuration
-* STEPS TO CREAT SPRING PROJECT
+* STEPS TO CREATE SPRING PROJECT
   * Creating a Maven Project with maven-archetype-quickstart
   * Add Spring Framework Dependency in pom.xml
     * Add this dependency as you won't be able to find applicationContext or BeanFactory or setup Xml Beans Configuration
+    * <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring</artifactId>
+      <version>2.5.6</version>
+    </dependency>
+    * This dependency will give us both ApplicationContext/BeanFactory and XML Based Configuration.
+    * And this XML Initial Tag is required in xml config, You can check this, and to find xml header you have to see in below topic documentation
+    * <beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+      <!-- bean definitions here -->
+
+      <bean id="student" class="org.example.Student">
+
+      </bean>
+      </beans>
   * Create the Required Pojo Classes
   * Configure the Beans in an XML
   * Use Bean Factory to read the XML for Object creation and injection.
-  * 
-#### IGNORE FOR NOW - OUT OF CONTEXT LEARNING - EXTRA DOUBTFUL LEARNING AND MAVEN (IGNORE FOR NOW - THE ISSUE WAS I WAS NOT ADDING SPRINGFRAMEWOK DEPENDENCY SO UNABLE TO CREAT XML BEANS AND APPLICATIONCONTEXT)
+  * OTHER RELATED ITEMS FOR MAVEN AND SETUP CHECK IN BELOW TOPIC.
+  * Remember I was using Java JDK 8 and Maven 3.9.9. We would have used java 11, but didn't checked that.
+  * The code was working fine with JDK8.
+* CONTINUE WITH THE YOUTUBE LEARNING ALONG WITH THE PROJECT CREATED IN CODE
+  * APPLICATION CONTEXT
+    * It is a sub-interface of BeanFactory
+    * It is mostly used for lightweight application like mobile application
+    * In addition to Basic Features of BeanFactory it provides enterprise-specific functionalities such as:
+      * Publishing events to registered listeners by resolving property files.
+      * Methods for accessing application components.
+      * Supports Internationalization
+      * Loading File resource in a generic fashion.
+    * Remember : BeanFactory Interface is deprecated in latest releases of spring and spring boot
+      * checking on that too
+    * Different Types of Application Containers provided by spring for different needs in ApplicationContext.
+      * 1. AnnotationConfigApplicationContext
+        * This class accept classes annotated with @Configuration and @Component Annotation as an argument and returns the context itself.
+        * The constructor of this accepts one or more classes.
+        * If there are two @Configuration classes, then beans define in later class will be used.
+        * To enable the overriding functionality you need to add one property in the application.properties file:
+          * spring.main.allow-bean-definition-overriding=true
+      * 2. AnnotationConfigWebApplicationContext
+        * It was introduced in spring3.0
+        * It is similar to above one but for the web environment
+        * This too uses @Configuration and @Component
+        * Classes can be registered via register() method or passing base package to scan() method.
+      * Other than this two we have few more context containers, we will check them later.
+    * This different Context you explore in coding in some other YT, check there and write code
+    * In this YT only this much
+* Remember - BeanFactory is already getting deprecated in the latest versions.
+* -.
+##### IGNORE FOR NOW - OUT OF CONTEXT LEARNING - EXTRA DOUBTFUL LEARNING AND MAVEN (IGNORE FOR NOW - THE ISSUE WAS I WAS NOT ADDING SPRINGFRAMEWOK DEPENDENCY SO UNABLE TO CREAT XML BEANS AND APPLICATIONCONTEXT)
   * USING INTELLIJIDEA IDE TO CREATE SPRING PROJECT
   * ON CODE PRACTISE LEARNING (WHEN CREATION PROJECTS)
     * Looks like XML Based configuration is only used until spring 3.0
@@ -184,4 +234,32 @@
           * https://www.youtube.com/watch?v=JhSBS2OpGdU&ab_channel=ProgrammingTechie
         * GK - There is nothing like maven is installed, Until you put MAVEN_HOME or M2_HOME environment variable in System environment variable and system path, until then they won't be shown when you 
           * check via $$ mvn --version.
-          * 
+
+#### SPRING BEANS (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+* WHAT ARE SPRING BEANS
+  * They are simple Java Objects
+  * Managed by SpringIOC
+  * Created and configured using XML or Java Annotations
+* SPRING IOC CONTAINER
+  * Responsible for Instantiating, Configuring and Assembling the objects
+  * It does this using the Dependency Injection, Which is a design pattern that allows the object to receive its dependency from external source, other than creating the dependency on its own.  
+* DEFINING THE SPRING BEANS
+  * 1. @Bean Annotation
+    * This annotation is used to let use know that method will return the spring bean.
+    * Example in Configuration Class we have this bean created.
+      * @Configuration
+      * public class MyConfiguration {
+        * @Bean
+        * public MyBean myBean(){
+          * return new MyBean();
+        * }
+      * }
+    * So this bean will be injected to other classes using @AutoWired Annotation
+    * @Bean annotation can be also be used for customization of the bean. example
+      * @Bean(name ="myCustomBean", initMethod="init", destroyMethod="cleanup")
+        * You can use this name attribute to specify the name of the bean.
+        * initMethod you can specify to be called after the bean is being created
+        * destroyMethod is called after the bean is being destroyed
+  * 2. DEFINING A BEAN USING XML
+    * <bean id="myBean" class="com.example.MyBean"/>
+    
