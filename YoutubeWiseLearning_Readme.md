@@ -8,7 +8,7 @@
 * In Future Learn this Course also after doing below topic wise : https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
 * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
 ### PLAYLIST OF YOUTUBE (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
-#### INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
+#### 1.INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
   * It is open source framework, currently owned by VMWare.
   * Enterprise and Internet Support
@@ -48,7 +48,7 @@
     * STRUTS
   * See in Youtube for component example
 
-#### INVERSION OF CONTROL AND DEPENDENCY INJECTION (https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer)
+#### 2.INVERSION OF CONTROL AND DEPENDENCY INJECTION (https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer)
 * INVERSION OF CONTROL
   * It is core component of Spring Framework
   * It is a software design principle which is independent of any language
@@ -99,7 +99,7 @@
   * Example see in code or in youtube only for injecting dependency injection.
 * LEARN WITH CODE NOW FOR THIS STUFFS IN YOUTUBE SHOWN OR WATCH YOUTUBE ONLY.
 
-#### IOC CONTAINERS - BEAN FACTORY AND APPLICATION CONTEXT (https://www.youtube.com/watch?v=tH6rd_OkClM&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=2&ab_channel=LazyProgrammer)
+#### 3.BEAN FACTORY AND APPLICATION CONTEXT (IOC CONTAINERS) (https://www.youtube.com/watch?v=tH6rd_OkClM&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=2&ab_channel=LazyProgrammer)
 * These two are the containers present in Spring Core components of spring IOC, which completely manages the lifecycle of bean/object.
 * WHAT IS BEAN?
   * It is objects maintained and managed by the IOC containers.
@@ -127,10 +127,10 @@
     </dependency>
     * This dependency will give us both ApplicationContext/BeanFactory and XML Based Configuration.
     * And this XML Initial Tag is required in xml config, You can check this, and to find xml header you have to see in below topic documentation
-    * <beans xmlns="http://www.springframework.org/schema/beans"
+    * (opening angular bracket) beans xmlns="http://www.springframework.org/schema/beans"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="
-      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd>
 
       <!-- bean definitions here -->
 
@@ -235,7 +235,7 @@
         * GK - There is nothing like maven is installed, Until you put MAVEN_HOME or M2_HOME environment variable in System environment variable and system path, until then they won't be shown when you 
           * check via $$ mvn --version.
 
-#### SPRING BEANS (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+#### 4.SPRING BEANS (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 * WHAT ARE SPRING BEANS
   * They are simple Java Objects
   * Managed by SpringIOC
@@ -261,5 +261,278 @@
         * initMethod you can specify to be called after the bean is being created
         * destroyMethod is called after the bean is being destroyed
   * 2. DEFINING A BEAN USING XML
-    * <bean id="myBean" class="com.example.MyBean"/>
-    
+    * <bean id="myBean" class="com.example.MyBean" --/> (remove double hypen at closing tag as it was giving some error, so I added)
+    * For example code, you can see in 3 topic above
+    * With the introduction of SpringBoot we have moved away from xml based configuration, and it will impact the development in a very good way
+    * As developers now not needed to do xml configuration going forward
+* INJECTING BEAN USING @AUTOWIRED
+  * How to use created Beans in our spring framework. 
+  * Main benefit of using Spring Bean - It can be easily injected.
+  * Example code
+    * public class MyService{
+      * @Autowired
+      * private MyBean myBean;
+    * }
+  * So here in this code, We are using @Autowired, so without creating any instance of myBean, we can use this object, As it is taken care by Spring Container to give the beans and create the beans for us.
+  * WHERE @Autowired CAN BE USED?
+    * 1. Fields
+      * Example the above one
+    * 2. Constructors (inject via constructors)
+      * Example
+        * public class MyService{
+          * private MyBean myBean;
+          * @Autowired  (Used just above the constructor)
+          * public MyService (MyBean myBean){
+            * this.myBean = myBean;
+          * }
+        * }
+    * 3. Setter Methods (inject via setter methods)
+      * Example
+        * public class MyService{
+          * private MyBean myBean;
+          * @Autowired  (Used just above the setter method)
+          * public void setMyBean (MyBean myBean){
+            * this.myBean = myBean;
+          * }
+        * }
+    * 4. ONE MORE WAY TO INJECT USING INTERFACES
+      * This you explore yourselves how to do.
+* OPTIONAL BEAN INJECTION @Autowired
+  * If you inject the bean using @Autowired and it didn't find any beans in the context, then it will throw an error during startup.
+  * But if the bean is marked as optional, the Spring IOC will not throw an exception if it is unable to find the matching bean.
+  * To mark dependency as optional, you can use following annotation for Autowired
+  * example
+    * public class MyService{
+      * @Autowired(required = false)
+      * private MyBean myBean;
+    * }
+  * So here we have provided Required parameter as false, But by default they are always true.
+* CONCLUSION 
+  * Spring Beans are object managed by IOC container. It can be easily injected into other objects.
+  * They are used to create and configure objects in an application.
+*
+
+#### 5. SPRING BEAN LIFE CYCLE (https://www.youtube.com/watch?v=vbo6l7HIyVk&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=3&ab_channel=LazyProgrammer)
+* LIFE CYCLE OF AN OBJECT
+  * When and how it is created
+  * How it behaves
+  * When and how it is destroyed
+* LIFE CYCLE OF SPRING BEANS
+  * CONTAINER STARTED => BEAN INSTANTIATED => DEPENDENCIES INJECTED => CUSTOM INIT => CUSTOM DESTROY METHOD
+* WAYS TO HANDLE BEAN LIFE CYCLE (WAYS TO IMPLEMENT)
+  * We will write init method and destroy method in the below configuration to set and handle bean life cycle.
+    * 1. USING XML CONFIGURATION
+      * Example code
+        * public class MyBean{
+          * public void init() throws exception {
+            * Syso("XML:Bean has been instantiated. This is init method");
+          * }
+          * public void destroy() throws exception {
+            * Syso("XML:container has been closed. This is destroy() method");
+          * }
+        * }
+        * ------.----
+        * <beans
+          * <bean id="myBean" class="com.MyBean" init-method="init" destroy-method="destroy"/>
+        * </beans
+    * 2. JAVA CODE LEVEL IMPLEMENTATION
+      * Here we need to implement two interfaces (InitializingBean, DisposableBean) and override there method (afterPropertiesSet and destroy)
+      * So these method will get invoked once the container is getting started and closed.
+      * Example code
+        *  public class MyBean{ implements InitializingBean, DisposableBean{
+          * public void afterPropertiesSet() throws exception {
+            * Syso("Java:Bean has been instantiated. This is init method");
+            * }
+            * public void destroy() throws exception {
+              * Syso("Java:container has been closed. This is destroy() method");
+            * }
+        * }
+        * ------.----
+        * Here in xml we don't have to define the init and destroy attribute, as it is taken care by implementing the interfaces.
+        * <beans
+          * <bean id="myBean" class="com.MyBean" />
+        * </beans
+    * 3. ANNOTATIONS
+      * Here we neither have to implement any interfaces nor we have to add init and destroy attribute in xml bean.
+      * Example code . We make use of annotations (@PostConstruct for init and @PreDestroy for destroy and container beans will find it itself.)
+        *  public class MyBean{
+          * @PostConstruct
+          * public void init() throws exception {
+            * Syso("Annotations:Bean has been instantiated. This is init method");
+          * }
+          * @PreDestroy
+          * public void destroy() throws exception {
+            * Syso("Annotations:container has been closed. This is destroy() method");
+          * }
+        * }
+        * ------.----
+        * <beans
+          * <bean id="myBean" class="com.MyBean" />
+        * </beans
+* IMPLEMENT ALL THIS IN THE CODE AND CHECK AS SHOW IN YT
+  * 1. FOR XML CONFIGURATION
+    * Create Beans in XML file only, call by ApplicationContext or ConfigurableApplicationContext but in springboot check it
+    * sample code to start context is 
+      * @SpringBootApplication
+      * @ImportResource("classpath:MyBeansConfig.xml")  //This will import the xml configuration where you have defined the beans
+      * public class SpringLifeCycleByXmlApplication {
+        * psvm {
+          * ConfigurableApplicationContext context = SpringApplication.run(SpringLifeCycleByXmlApplication.class); //This will call the init method
+          * context.close(); //This will call the destroy method
+        * }
+      * }
+  * 2. FOR JAVA LEVEL IMPLEMENTATION(INTERFACES)
+         * Same example code only
+  * 3. ANNOTATIONS (POSTCONSTRUCT AND PREDESTROY ANNOTATIONS)
+      * Same example code only for springbootapplication context as above.
+* 
+
+#### 6. SPRING BEAN SCOPE (https://www.youtube.com/watch?v=MSVvzTuGuIs&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=5&ab_channel=LazyProgrammer)
+* When creating the bean, you don't only control the Dependencies and Configuration, but also the scope of that bean definition.
+* SCOPE OF BEAN
+  * SPRING FRAMEWORK SUPPORTS 6 SCOPES (4 OF WHICH ARE AVAILABLE ONLY WHEN YOU ARE USING WEB APPLICATION CONTEXT)
+    * 1. SINGLETON SCOPE
+      * Only one shared instance of a singleton bean is managed
+      * Spring IOC container creates exactly one instance of the object by that bean definition.
+      * It is not same as the Singleton Design Pattern
+      * This is default scope of spring beans
+      * We define scope in xml configuration or java configuration. If we do not define then by default it is singleton.
+    * 2. PROTOTYPE SCOPE
+      * Creates a new bean instance every time a request for htt specific bean is made.
+      * As a rule, you should use the prototype scope for all stateful beans.
+        * Stateful - state of object can be changed, means internal values of member variables of that object can be changed.
+        * Example of stateless object
+          * class Stateless {
+            void test() {
+            System.out.println("Test!");
+            }
+          }
+          * This is also a stateless object:
+            class Stateless {
+             //No static modifier because we're talking about the object itself
+             final String TEST = "Test!";
+  
+             void test() {
+              System.out.println(TEST);
+             }
+          }
+      * Here initialization lifecycle method is called, but destroy method is not called for prototype beans.
+      * SINGLETON BEANS WITH PROTOTYPE BEANS DEPENDENCIES
+        * When you in Computer class which is Singleton Type Bean has dependencies on Ram which is prototype type bean, then
+        * When creating the Computer class bean, which has Ram Prototype bean in it, then we know that dependencies are resolved during instantiation of object.
+        * Thus, in above case, Ram prototype Bean is first created and then injected in Computer Singleton bean.
+        * So if a new bean again created for Computer Singleton bean then same Ram bean will be called everytime, No new instance will be created for Ram if computer bean is created again.
+    * WEB AWARE SCOPES (Learn later in deep during Web Applications)
+      * 3. REQUEST - Scopes a single bean definition to the lifecycle of a single HTTP request
+      * 4. SESSION - Scopes a single bean definition to the lifecycle of an HTTP Session.
+      * 5. APPLICATION - Scopes a single bean definition to the lifecycle of a Servlet Context.
+      * 6. WEBSOCKET - Scopes a single bean definition to the lifecycle of a WebSocket.
+* HOW TO SET SCOPE
+  * USING ANNOTATIONS
+    * Example
+      * @Bean
+      * @Scope("singleton")
+      * public MyBean getMyBean(){..}
+    * We can also use a constant instead of the String value in the following manner
+      * @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+  * USING XML
+    * <bean id="myBean" class="com.example.MyBean" scope="prototype"/.>
+* 
+
+#### 7. SPRING BEAN ANNOTATION (https://www.youtube.com/watch?v=v4hYFYATF_Y&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=12&ab_channel=LazyProgrammer)
+* Just same topic as above bean related only but all in one and in sequence only.
+* USER DEFINED BEAN
+  * By default bean name is same as method name, but user defined can be done in this way
+  * @Bean ("myBean")
+  * public Bean bean(){
+    * return new Bean();
+  * }
+* BEAN NAME ALIASING
+  * Sometimes it is required for a particular bean to have multiple names for three different env or systems so.
+  * the name attributes of the @Bean annotation accepts an array of String for this purpose.
+  * @Bean({"dataSource", "subsystemA-dataSource", "subsystemB-dataSource"})
+* DESCRIPTION OF THE BEAN
+  * Sometimes, it is helpful to provide a more detail textual description of a bean.
+  * To add a description to a @Bean, you can use the @Description annotation
+    * @Bean
+    * @Description("This is a service bean")
+    * public Service service(){
+      * return new Service();
+    * }
+  * This is done only to get some info about that bean.
+* 
+
+#### 8. ANNOTATION BASED CONFIGURATION (https://www.youtube.com/watch?v=lRO7n8BZj9g&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=8&ab_channel=LazyProgrammer)
+* OVERVIEW
+  * We can do configuration in spring using XML and Annotations or both in same project.
+  * The question is "Are annotations better than XML for configuration in Spring?"
+    * Each configuration has it's own pros and cons, and let developer decides which suits him better.
+  * Annotation provide shorter declaration whereas XML is very good in re-wiring the components, without touching the source code.
+  * That means in Annotation, we are directly making changes in java class which is not in case of xml configuration.
+  * It does not matter as "SPRING CAN ACCOMODATE BOTH OF THEM AND MIXED OF THEM AS WELL" We can use either or both together.
+* WHAT IF WE USE BOTH ANNOTATION AND XML CONFIGURATION FOR SAME CLASS COMPONENT BUT WITH DIFFERENT DETAILS
+  * Then which configuration will take precedence.
+  * Since Annotation injection is performed before XML, thus XML configuration will override annotation for properties wired through both approaches.
+* @Autowired
+  * Used for dependency injection. See above there it is done.
+* @Primary
+  * When we have multiple implementations of a single dependency in the container.
+  * @Primary indicates that a particular beans should be given preference.
+* @Qualifier
+  * Fine tune using @Qualifier. (It will specifically that specific bean out of multiple bean declaration for same class object)
+  * It is used in conjunction with the @Autowired.
+  * It allows you to specify which bean should be wired when there are multiple beans of the same type in the application context.
+  * Example we have HardDisk interface class 
+  * We have two class implementing this interface, lets say "Seagate" and "Samsung".
+  * So in the class implementation we will have code like this
+    * @Service
+    * @Qualifier("seagate")
+    * public class Seagate implements HardDisk{.method 1.}
+    * -----...----
+    * @Service
+    * @Qualifier("samsung")
+    * public class Samsung implements HardDisk{.method 1.}
+  * So here qualifier will uniquely identify each bean.
+    * Example of how we will use this when injecting
+      * public class Computer{
+        * @Autowired
+        * @Qualifier("seagate") //Here we know which bean to chose here only and inject that only
+        * private HardDisk hardDisk;
+        * ..
+        * public void myHardDiskTask(String message){
+          * hardDisk.method1(message);
+        * }
+      * }
+* WHAT WILL HAPPEN IF WE USE @Primary AND @Qualifier TOGETHER
+  * Both can be used together, But only one will be used.
+  * @Qualifier has higher precedence as compared to @Primary
+* @Resource
+  * @Resource is another annotation used for dependency injection in the java.
+  * It is not specific to Spring Framework but similar to the @Autowired annotation.
+  * It is same as @Autowired
+  * Just here we have arguments which we can pass like as below from the above example. It does roles of @Qualifier using the arguments.
+    * @Resource(name="Seagate")
+    * private Harddisk hardDisk;
+* @Inject
+  * Same as @Autowired to inject bean, this you learn yourself.
+* @Autowired vs @Resource vs @Inject
+  * Why we need 3 annotation for same job of injecting bean or wire the bean.
+  * They differ in the execution path taken to find the bean.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
