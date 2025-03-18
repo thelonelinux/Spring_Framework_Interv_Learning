@@ -7,7 +7,7 @@
 ## MY LEARNING (SPRING FRAMEWORK PLUS)
 * In Future Learn this Course also after doing below topic wise : https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
 * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
-### PLAYLIST OF YOUTUBE (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+### PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 #### 1.INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
   * It is open source framework, currently owned by VMWare.
@@ -518,14 +518,187 @@
 * @Autowired vs @Resource vs @Inject
   * Why we need 3 annotation for same job of injecting bean or wire the bean.
   * They differ in the execution path taken to find the bean.
+  * @Autowired - Specific to Spring Framework
+  * @Resource and @Inject - Not specific to Spring Framework. They belong to JSR Standards.
+* @Value
+  * It is used to inject externalized properties. Present in external sources. Not in the java code itself.
+  * It can be properties file or remote server as well.
+  * Let say we have application.properties file
+    * Having key value pair as 
+      * category.name=Test
+    * Then we can inject this in below way
+      * @Value("${category.name}")
+      * private String categoryName; 
+    * Just in case that key is not present then we can add default value in this way
+      * @Value("${category.name:defaultBeanValue}")
+      * private String categoryName; 
+      * 
+* END OF YOUTUBE PLAYLIST = LAZY PROGRAMMER FOR SPRING FRAMEWORK LEARNING
+* -------------------- END ----------------------------*
 
 
+### PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+* HERE MOSTLY CODING STUFFS AND UNDERSTANDING WITH PROJECTS
+#### 1.JAVA SPRING DEPENDENCY INJECTION (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+* JUST INTRO - Object beans is required in spring core
+
+#### 2.INTRODUCTION TO MAVEN THEORY (https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=2&ab_channel=Telusko)
+* MAVEN
+  * Build Tool, Owner is Apache.
+  * Why we need maven
+    * We need some third party library to make our project. example for sql we need mysql connector libraries or dependency jar file.
+    * We have to download all this jar file / dependency ourselves if maven was not there.
+    * It also make sure the versions are compatible with each other.
+    * Better connect with internet if you are using spring dependency not present in your local repository.
+    * If it is already present in local repository then it won't go to remote repository to download it.
+* GRADLE
+  * Build tool like maven for java.
+
+#### 3.MAVEN TUTORIAL PRACTICAL (https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko)
+* www.spring.io
+  * you can download the jar files from here.
+  * go to project, >> go to spring framework
+  * you will also see minimum jdk requirements to run certain spring dependencies.
+  * dependencies
+    * org.springFramework (groupID)
+    * artifact. spring-context
+* CREATE MAVEN PROJECT
+  * In intellijIdea/ or eclipse (chose maven project in eclipse)
+  * File >> Create New Project >> Maven >> Archetype (choose quickStart for core java)
+  * Archetype you can chose web for web applications and so on , this is just boilerplate code template.
+  * And then once the project is created. in pom.xml file add the springframework dependencies.
+    * org.springFramework (groupID), spring-context (artifactId), 4.2.4.RELEASE (version)
+    * This will support for all JDK above 6 for Spring Framework 4.x
+    * and JDK 5+ for Spring Framework 3.x
+  * It will download jar of spring-context, spring-core, spring-aop, spring-beans, aopalliance, spring-expression, commons-logging.
+* In POM.XML
+  * You will see maven version <modelVersion
+  * You will see what type of application you have and its packaging (jar or war if web application)
+* PROJECT WILL CONTINUE IN NEXT LECTURE YT PLAYLIST
+
+#### 4.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=jdRd5hR9ON8&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=4&ab_channel=Telusko)
+* DEPENDENCY INJECTION BY CODE PRACTISE
+  * project continue in next class
+
+#### 5.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=Lw_PszjKu68&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=5&ab_channel=Telusko)
+* XML Tag to define bean in project only continues.. 
+  * XML needs custom tags which needs some definition. Definition you can get in spring websites.
+  * <beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  * Here advantage we will have is in xml we don't have to recompile like java sorce code. So this is advantage we are getting when creating beans in xml.
+* 
+
+#### 6.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=4fZJfqpnyWg&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=6&ab_channel=Telusko)
+* DIFFERENT TYPES ON CONFIGURATION
+  * Context object is responsible to give you beans. (ApplicationContext)
+    * Three types of Configuration
+      * 1. XML BASED CONFIGURATION - Like we are doing by bean tag in xml file
+      * 2. ANNOTATION BASED CONFIGURATION IN XML FILE ONLY - But not creating Bean Tag, instead using @Component in every class which we need bean of.
+        * Here in XML we just add component scan tag.
+        * In annotation based configuration, we don't have make bean tag for that class in xml file.
+        * Just add @Component in the class which you want bean of.
+        * But how XML will identify that class with @component and create bean for it on its own.
+        * So our spring framework does not know about that @Component defined classes.
+        * So to let our Spring framework know it in Annotation Based Configuration. we will add this below tag in our xml config file.
+          * <!-- This componentScan tag is used for finding class annotated with @Component and make bean of it automatically
+             * This is called Annotation Based Configuration (Done from XML Only-->
+           * <context:component-scan base-package="org.example"></context:component-scan>
+        * Also our XML Tag header will be changed like this where we add some more context http as shown below
+          * <!-- This xml header details belongs to spring framework dependencies when we want annotation based configuration as well -->
+        <beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+        * So after this just make the object of @ComponentScan using context and run it. It will run fine
+        * VERY IMPORTANT - SO WE CAN HAVE BOTH XML BEAN TAG CONFIGURATION AND ANNOTATION BASED CONFIGURATION IN XML TOGETHER.
+      * 3. JAVA CONFIGURATION - Here we make a configuration class using @Configuration and there we will have @Beans method to make bean
+        * If we don't want to make bean, then here we can write @Component on every class we need bean of and in configuration class we will add @ComponentScan annotation, It will make bean of all classes annotated with @Component.
+        * This is mostly used in latest versions.
+* NOTE
+  *  <dependency
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>6.1.4</version>
+    <dependency>
+  * On adding this 6.1.4 Version for springFramework which is latest of it's dependency, It won't be able to identify bean factory.
+* 
+
+#### 7.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=1MDpTdCit9s&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=7&ab_channel=Telusko)
+* PROJECT CODE LEARNING CONTINUES..
+  * See more in the project code added in this repo.
+  * You can run this maven project once you pick it up and run it separately, 
+  * Here you may not run it as this is not identified or created as  maven project so.
+  * so the ide won't identify it as a maven project.
+* 
+
+#### 8.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=oTy2pUILpdQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=8&ab_channel=Telusko)
+* CONSTRUCTOR INJECTION
+  * Check in code project only
+* 
+
+#### 9.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=HFt_q0wYYLU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=9&ab_channel=Telusko)
+* AUTOWIRED ANNOTATION
+  * Check in code project only, Computer will have hardDisk injected in it using @Autowired,
+  * @Autowired will create bean for computer class by finding the bean in xml configuration from context container.
+  * If we are using both XML and Annotation in XML, then they are called mixed configuration.
+* Also check how to make computer bean in xml and add hardDisk property in it. using bean tag in xml instead of using @Autowired in computer class for hardDisk injection.
+* END OF XML BASED PROJECT AND ITS SPRING CORE AND SPRING CONCEPTS
+
+#### 10.SPRING CORE ANNOTATIONS (NEW PROJECT - NON XML - JAVA BASED CONFIGURATION) (https://www.youtube.com/watch?v=5zUTc-kge8I&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=10&ab_channel=Telusko)
+* NON-XML BASED CONFIGURATION (JAVA BASED CONFIGURATION - Create @Configuration class and make @Bean there only)
+  * CREATE NEW PROJECT
+    * Add that same spring framework dependency only, as you have added above.
+    * chose maven QuickStart Archetype only again.
+  * JAVA BASED CONFIGURATION
+    * Since here we don't want to use XML Based Configuration, so we don't create config.xml file.
+    * Also here to make context we won't make context by calling as below xml
+      * ApplicationContext context = new ClassPathXmlApplicationContext("Config.xml"); //Belongs to SpringFramework dependencies //It is an interface which indirectly child of BeanFactory only.
+    * Instead we make context by calling below class
+      * ApplicationContext factory = new AnnotationConfigApplicationContext();
+    * and then after create the beans or get the beans from this context.
+  * Here also same class files will be there like in XML Project
+  * Just there won't be XML configuration
+  * Instead we will java based configuration
+  * So make Config.java and annotate it with @Configuration. So now this will be our configuration class and here you can specify the beans
+  * Also to achieve Annotation Based Configuration in Java Config Class, add Annotation @ComponentScan, it will make bean of all the classes annotated with @Component within the package.
+  * You can have multiple config class.
+* MOSTLY SEE IN CODE PROJECT, YOU WILL LEARN FROM THERE.
+
+#### 11.SPRING CORE ANNOTATION COMPONENT AUTOWIRED PRIMARY QUALIFIER (Java Based Configuration) contd..(https://www.youtube.com/watch?v=VIaBbNaYDaU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=11&ab_channel=Telusko)
+* MOSTLY SEE IN PROJECT CODE ONLY
+  * @COMPONENT
+    * Put in every class of which you don't want to make bean in config class. 
+    * Config class will automatically scan it via @ComponentScan and make bean of it. Bean name will be the class name only in small case but camel case.
+  * @COMPONENTSCAN
+    * @ComponentScan(basePackages="org.example")
+    * It will scan all the component and create beans within this package.
+    * By default bean name will be class name with camelcase way. small case letters
+  * @AUTOWIRED
+    * To inject the dependency in other class. It will create bean/object for that class. It will search for the object in config class.
+  * @PRIMARY
+    * Like you have Samsung and Seagate implementing interface HardDisk.
+    * So if in case you are getting the bean in Java Based Configuration without using @Bean in config class
+    * And by using @Component in both Samsung and Seagate,
+    * Then at that time when you try to get bean of HardDisk, the IOC Container will get confused and gives error that we have two beans.
+    * So there if you want Samsung then you have to add @Primary annotation in that class along with @Component.
+    * Other way of doing this is by using @Qualifier while @Autowiring in Computer class.
+    * code as 
+      * @Autowire
+      * @Qualifier("seagate")
+      * HardDisk hardDisk;
+    * So this will pick Seagate and remove ambiguity.
+* SO THAT'S IT LEARNING SPRING CORE AND DI AND IOC AND CONFIGURATION TYPES
+* LEARNING ABOUT HOW TO CREATE MAVEN PROJECT, SPRING PROJECT AND ALL BASICS.
+* -- END OF PROJECT WISE LEARNING FOR SPRING FRAMEWORK, SPRING , SPRING CORE -----
 
 
-
-
-
-
+#### 12. SPRING AOP (https://www.youtube.com/watch?v=Ft29HgsePfQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+* YOU CAN LEARN THIS OR SKIP
 
 
 
