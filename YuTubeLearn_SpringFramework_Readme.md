@@ -4,10 +4,13 @@
 ## TODO
 * LEARN ABOUT REGEX IN JAVA
 
-## MY LEARNING (SPRING FRAMEWORK PLUS)
-* In Future Learn this Course also after doing below topic wise : https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
-* https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
-### PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE)
+* OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
+  * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
+    * This includes one video for learning spring
+  * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
+    * This has whole playlist from spring and many spring and spring plus concepts
+### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 #### 1.INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
   * It is open source framework, currently owned by VMWare.
@@ -537,7 +540,7 @@
 * -------------------- END ----------------------------*
 
 
-### PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+### B.PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * HERE MOSTLY CODING STUFFS AND UNDERSTANDING WITH PROJECTS
 #### 1.JAVA SPRING DEPENDENCY INJECTION (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * JUST INTRO - Object beans is required in spring core
@@ -696,9 +699,19 @@
 * LEARNING ABOUT HOW TO CREATE MAVEN PROJECT, SPRING PROJECT AND ALL BASICS.
 * -- END OF PROJECT WISE LEARNING FOR SPRING FRAMEWORK, SPRING , SPRING CORE -----
 
-
 #### 12. SPRING AOP (https://www.youtube.com/watch?v=Ft29HgsePfQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
-* YOU CAN LEARN THIS OR SKIP
+* IN LAYMAN WORDS
+  * It is like Trigger. Use @Aspect annotation in aspect class. @Before or @After in its method. There you mention before what function it should be called.
+  * So when such method name is called, it will trigger this Aspect class method before that function.
+  * So mostly that's it. 
+  * You can watch YT for code. 
+  * Not going in deep about it.
+
+*  ----- END OF SPRING FRAMEWORK, SPRING , SPRING CORE ---------
+
+
+## MY LEARNING (SPRING MVC)
+### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
 
 
 
