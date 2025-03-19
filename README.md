@@ -7,7 +7,7 @@ Learning Spring Framework core and all other spring framework concepts
 ### 3. PRACTICE CODE AND LEARN (Will be adding codes here and learn in this repo only)
 
 
-## MY LEARNING (SPRING FRAMEWORK, CORE , SPRING MVC, SPRING AOP, SPRING SECURITY ETC.)
+## MY LEARNING (SPRING FRAMEWORK, CORE , SPRING MVC, SPRING AOP, SPRING SECURITY ETC.) (FOR DETAIL YT LEARNING SEE YUTUBELEARN_SPRINGFRAMEWORK_README.MD)
 ### MAVEN LEARNING
 * Maven is a build tool, like gradle.
 * Let say in spring or springboot project we need to use SQL connector, so for that we need Sql connector jar files to use in our project.
@@ -114,7 +114,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring – Expression Language(SpEL)
   * Spring – Difference Between RowMapper and ResultSetExtractor
 
-  
 #### Spring Annotations
 * Annotations in Spring simplify configuration and setup by providing metadata about our components. This section deep dives into the various annotations available in Spring, such as @Component, @Service, @Repository, and more, explaining how they help streamline development.
 * TOPICS
@@ -153,7 +152,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring Boot – Exception Handling
   * Spring Boot Actuator
 
-
 #### Spring MVC
 * Spring MVC is a framework within Spring that helps you build robust and maintainable web applications using the Model-View-Controller design pattern. This section covers everything from setting up a simple controller to advanced topics like custom validation and integration with databases.
 * TOPICS
@@ -174,8 +172,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring MVC Integration with MySQL
   * Spring MVC CRUD with Example
 
-
-
 #### Spring with REST API
 * Spring’s support for RESTful web services allows developers to create robust APIs that can be consumed by various clients. This section introduces the basics of REST, how to create controllers, and how to handle different types of data formats like JSON and XML.
 * TOPICS
@@ -189,7 +185,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring – RestTemplate
   * How to create a REST API using Java Spring Boot
   * Easiest Way to Create REST API using Spring Boot
-
 
 #### Spring Data JPA
 * Spring Data JPA makes it easy to implement JPA-based repositories with minimal boilerplate code. This section explores how to perform CRUD operations , use custom queries, and manage database transactions using Spring Data JPA.
@@ -206,8 +201,6 @@ Learning Spring Framework core and all other spring framework concepts
   * How to access database using Spring Data JPA
   * How to Make a Project Using Spring Boot, MySQL, Spring Data JPA, and Maven?
 
-
-
 #### Spring JDBC
 * Spring JDBC provides a straightforward way to interact with databases, offering a simpler alternative to ORM frameworks like Hibernate. This section covers the basics of using JdbcTemplate, named parameters, and handling SQL exceptions.
 * TOPICS
@@ -218,7 +211,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring – NamedParameterJdbcTemplate
   * Spring – Using SQL Scripts with Spring JDBC + JPA + HSQLDB
   * Spring – ResultSetExtractor
-
 
 #### Spring ORM or Spring Hibernate
 * Spring ORM integrates with Hibernate to provide a robust solution for object-relational mapping in Java applications. This section covers the setup, configuration, and use of Hibernate with Spring, including mappings, lifecycle management, and query handling.
@@ -241,8 +233,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Hibernate – Pagination
   * Hibernate – Batch Processing
 
-
-
 #### Spring AOP
 * Aspect-Oriented Programming (AOP) in Spring helps in separating cross-cutting concerns, such as logging, security, and transaction management, from the business logic. This section introduces AOP concepts, usage of aspects, and how to implement them in Spring applications.
 * TOPICS
@@ -262,7 +252,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring Boot – AOP After Advice
   * Spring Boot – AOP Before Advice
 
-
 #### Spring Security
 * Spring Security is a powerful and customizable authentication and access control framework for Java applications. This section covers the core features, including setting up basic security, customizing authentication, and managing user sessions.
 * TOPICS
@@ -278,7 +267,6 @@ Learning Spring Framework core and all other spring framework concepts
   * Spring Security XML
   * Spring Security at Method Level
   * OAuth2 Authentication with Spring and Github
-
 
 #### Interview Questions on Spring Framework
 * Spring Interview Questions and Answers

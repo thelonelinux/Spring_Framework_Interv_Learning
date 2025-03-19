@@ -4,7 +4,7 @@
 ## TODO
 * LEARN ABOUT REGEX IN JAVA
 
-## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE)
+## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE, SPRING AOP)
 * OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
   * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
     * This includes one video for learning spring
@@ -539,7 +539,6 @@
 * END OF YOUTUBE PLAYLIST = LAZY PROGRAMMER FOR SPRING FRAMEWORK LEARNING
 * -------------------- END ----------------------------*
 
-
 ### B.PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * HERE MOSTLY CODING STUFFS AND UNDERSTANDING WITH PROJECTS
 #### 1.JAVA SPRING DEPENDENCY INJECTION (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
@@ -709,6 +708,7 @@
 
 *  ----- END OF SPRING FRAMEWORK, SPRING , SPRING CORE ---------
 
+----------------------------------------------------------------
 
 ## MY LEARNING (SPRING MVC)
 ### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
@@ -785,3 +785,16 @@
 * But since right now I am not directly anywhere using spring mvc in office or external so not going deep.
 * But this is good learning as you can build full fledged website in java spring.
 * This is like good with both backed and fronted in java only
+
+
+----------------------------------------------------------------
+
+## MY LEARNING (SPRING SECURITY)
+
+----------------------------------------------------------------
+
+## MY LEARNING (SPRING JDBC, SPRING ORM)
+
+----------------------------------------------------------------
+
+## MY LEARNING (SPRING BOOT, SPRING WITH REST APIS)
