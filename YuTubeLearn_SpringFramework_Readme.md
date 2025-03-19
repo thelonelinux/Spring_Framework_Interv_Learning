@@ -712,13 +712,76 @@
 
 ## MY LEARNING (SPRING MVC)
 ### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+* OVERVIEW OF THIS PLAYLIST
+  * Total 6 videos.
+  * Simple web application building using spring boot, using dependencies spring web and thymeleaaf
+  * Here controller is just that /home will render the hello.html. So this is how it is different from our usual apis.
+  * Once only learning this 6 YT videos will enough for you to understand how and what spring mvc.
+* 
+#### 1.INTRODUCTION TO SPRING MVC (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+* IN LAYMAN WORDS
+  * See part 3 below
+  * This is just web-application you make using spring framework. 
+  * Later the project was made using spring boot only (see part 3)
 
+#### 2. HOW SPRING MVC WORK? COMPLETE WORKFLOW OF SPRING MVC REQUEST (https://www.youtube.com/watch?v=IkDsHHLwg4Y&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+* IN LAYMAN WORDS
+  * It just specifying the flow of spring MVC how it will render
 
+#### 3. SPRING MVC WITH ZERO CONFIGURATION USING SPRINGBOOT AND THYMELEAF (https://www.youtube.com/watch?v=1lMyJMZzcpM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=3&ab_channel=LazyProgrammer)
+* IN LAYMAN WORDS
+  * MODEL IS DB
+  * VIEW IS HTML PAGE
+  * CONTROLLER
+    * This is same as controller as you do in api, but here instead of returning list of student.
+    * Here we return html page on calling that /hello. This will return hello.html
+    * So we use ThymeLeaf dependencies for frontend to talk with backend
+    * We also use spring web dependencies for web application using controller call.
+  * So this is just simply learning a web page.
+  * You can just watch this 
+  * Here they made project using spring boot only, by using jar file, and dependencies like spring web and thymeleaf only.
 
+ 
+#### 4. SPRING BOOT MVC TUTORIAL - IMPLEMENTING USER REGISTRATION AND LOGIN WITH JPA AND THYMELEAF (https://www.youtube.com/watch?v=i2YxccYlGWw&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=4&ab_channel=LazyProgrammer)
+* PROJECT BUILDING AND LEARNING VIA CODING
+  * You could have created the web mvc project from maven archetype from intellijIdea only.
+  * but we are creating from the spring.io as spring boot project as it will give all the ready configuration to us.
+  * @PostMapping("/login")
+    * If user enters valid password then goes to dashboard or in same page. so this  is how controller in mvc works for post
+  * @GetMapping("/dashboard)
+    * This will just show you the dashboard.html page as get request.
+    * Use of HttpSession
+* (Very Very IMP)You can see DB in db console in web browser after starting the application. We don't need sql server ide in our computer for it.
+* So just register, it will add user details in table.
 
+#### 5. SPRING MVC APPLICATION DEMO - (above project) Cont.. (https://www.youtube.com/watch?v=UdVXuT0OJ8g&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=5&ab_channel=LazyProgrammer)
+* PROJECT CREATED ABOVE
+  * This will just show us the demo of using project created in playlist 5 above
+* 
 
+#### 6. SIMPLIFY CONFIGURATION USING @EnableWebMvc IN MVC APPLICATION (https://www.youtube.com/watch?v=N0dzymNyiHM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=6&ab_channel=LazyProgrammer)
+* @EnableWebMvc (VERY IMP TO LEARN THIS - GOOD EXPLAINED - FOR NOW JUST NOT GOING IN VERY DETAIL AS NOT REAL LIFE EXAMPLE I AM USING RIGHT NOW)
+  * How this annotation made our spring mvc work much easier
+  * web.xml configuration
+    * DISPATCHERSERVLET
+    * SERVLET MAPPING
+    * SPRING CONTEXT
+  * THE POWER OF @EnableWebMvc
+    * DispatcherServlet Init 
+      * In web.xml we had to do something just not now
+    * Request Mapping
+      * It will automatically do mapping with the introduction of @EnableWebMvc
+    * Adapter
+    * Exception Handling
+    * Static Resource Handling - Automatically handles  static files like CSS, HTML etc.
+      * View Resolution - Resolves view like xml 
+    * Simplified Configuration
 
-
-
-
-
+#### CONCLUSION 
+* You can learn this for starting with the code and understanding spring mvc
+* PROJECT created in this playlist is enough to learn and understand spring mvc. but right now not adding this project or making this project.
+  * will be doing that in future
+* Further learning will come if we deep dive.
+* But since right now I am not directly anywhere using spring mvc in office or external so not going deep.
+* But this is good learning as you can build full fledged website in java spring.
+* This is like good with both backed and fronted in java only
