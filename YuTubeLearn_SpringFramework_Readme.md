@@ -1,10 +1,10 @@
-# SPRING FRAMEWORK LEARNING (SPRING, SPRING FRAMEWORK, SPRING CORE, SPRING MVC, SPRING AOP) - YOUTUBE WISE
+# SPRING FRAMEWORK LEARNING (SPRING, SPRING FRAMEWORK, SPRING CORE, SPRING MVC, SPRING AOP, SPRING SECURITY) - YOUTUBE WISE
 * Best way to learn by watching and coding, But in youtube sequence
 
 ## TODO
 * LEARN ABOUT REGEX IN JAVA
 
-## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE, SPRING AOP)
+## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE, SPRING AOP) (Completely done with project also attached in this repo - Now you can do brainstorming type doubts in it like in stackoverflow)
 * OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
   * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
     * This includes one video for learning spring
@@ -710,7 +710,7 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING MVC)
+## MY LEARNING (SPRING MVC) (YT Deep dive learning done, But project not created here myself)
 ### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
 * OVERVIEW OF THIS PLAYLIST
   * Total 6 videos.
@@ -789,7 +789,19 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING SECURITY)
+## MY LEARNING (SPRING SECURITY) (Done but not doing deep dive learning - no project created just seen YT videos sort of)
+* IN LAYMAN WORDS
+  * Just learn some youtube playlist attached here.
+  * No need to go deep dive.
+  * It mostly includes
+    * How to make spring Boot project secure by using some security dependency. They are making via spring boot project only.
+    * It also includes JDBC security
+    * Login security
+    * JWT Security
+* YT Links
+  * https://www.youtube.com/watch?v=29vmP4YLwyo&list=PLxhSr_SLdXGOpdX60nHze41CvExvBOn09&ab_channel=EmbarkX%7CLearnProgramming
+  * This has got 12 videos in the playlist. Just watch it, but right now not doing deep dive, but idea taken
+  * Also check this YT also : https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&ab_channel=JavaBrains
 
 ----------------------------------------------------------------
 
