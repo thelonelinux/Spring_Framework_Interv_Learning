@@ -806,6 +806,13 @@
 ----------------------------------------------------------------
 
 ## MY LEARNING (SPRING JDBC, SPRING ORM)
+* YT link : https://www.youtube.com/watch?v=KRMNTudb0AY&list=PL0zysOflRCekeiERASkpi-crREVensZGS&ab_channel=LearnCodeWithDurgesh
+  * Learning from this playlist. Learn only spring JDBC part from here.
+  * https://www.youtube.com/watch?v=DOk4RV0_n1Y&list=PL0zysOflRCekeiERASkpi-crREVensZGS&index=29&ab_channel=LearnCodeWithDurgesh
+  * https://www.youtube.com/watch?v=BSdFJSk1JBk&list=PL0zysOflRCekeiERASkpi-crREVensZGS&index=30&ab_channel=LearnCodeWithDurgesh
+  * https://www.youtube.com/watch?v=tzDQvQIsmGU&list=PL0zysOflRCekeiERASkpi-crREVensZGS&index=31&ab_channel=LearnCodeWithDurgesh
+  * https://www.youtube.com/watch?v=qzF_M0p48Rg&list=PL0zysOflRCekeiERASkpi-crREVensZGS&index=32&ab_channel=LearnCodeWithDurgesh
+  * And so on...
 
 ----------------------------------------------------------------
 
