@@ -1,0 +1,41 @@
+<!-- This xml header details belongs to spring framework dependencies -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!-- This componentScan tag is used for finding class annotated with @Component and make bean of it automatically
+     This is called Annotation Based Configuration (Done from XML Only)
+     Here you have to give base-package value the package name, means it will search @Component class
+     within this mentioned package only-->
+    <context:component-scan base-package="org.example"></context:component-scan>
+
+    <!-- bean definitions here -->
+
+    <bean id="student" class="org.example.Student" scope="prototype">
+        <property name="name" value="Lazy Programmer"/>
+    </bean>
+
+    <!-- If scope is not mentioned then by default it is singleton -->
+    <bean id="student1" class="org.example.Student" >
+        <property name="name" value="Lazy Programmer 1"/>
+        <!--This property tag is used to fill value using setter method in that class object  dependant properties-
+        We can also do this by constructor injector -->
+    </bean>
+
+    <!-- Constructor inject to set string value -->
+    <bean id="student2" class="org.example.Student" scope="prototype">
+        <constructor-arg value="ValueSetFromConstructor"></constructor-arg>
+    </bean>
+
+
+    <bean id="hardDisk" class="org.example.Seagate" >
+    </bean>
+
+    <bean id="computer" class="org.example.Computer" >
+<!--        <property name="hardDisk" value="hardDisk"/>-->
+    </bean>
+</beans>
