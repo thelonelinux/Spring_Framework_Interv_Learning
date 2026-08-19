@@ -1,16 +1,15 @@
-# Spring_Framework_Interv_Learning
+# SPRING FRAMEWORK LEARNING (SPRING FRAMEWORK/ SPIRNG BOOT)
 * Learning Spring Framework core and all other spring framework concepts
-* Spring/Spring Boot Road Map (check this ) : https://www.geeksforgeeks.org/spring/
+* Spring/Spring Boot Road Map (check this for topicwise sequence learning) : https://www.geeksforgeeks.org/spring/
+* MY LEARNING APPROACH FOR INTERVIEW
+  * 1. FROM INTERVIEWBIT - PDF ATTACHED (CHECK AND LEARN)
+  * 2. FROM GFG INTERVIEWBIT (https://www.geeksforgeeks.org/spring/)
+  * 3. PRACTICE CODE AND LEARN (Will be adding codes here and learn in this repo only)
 
 
-## A. MY LEARNING APPROACH FOR INTERVIEW
-### 1. FROM INTERVIEWBIT - PDF ATTACHED (CHECK AND LEARN)
-### 2. FROM GFG INTERVIEWBIT (https://www.geeksforgeeks.org/spring/)
-### 3. PRACTICE CODE AND LEARN (Will be adding codes here and learn in this repo only)
-
-
-## B. MY LEARNING (FOR DETAIL YT LEARNING SEE YUTUBELEARN_SPRINGFRAMEWORK_README.MD)
-### B1. MAVEN LEARNING
+## MY LEARNING - Spring Framework with Maven Tutorial 
+* FOR DETAIL YT LEARNING SEE YUTUBELEARN_SPRINGFRAMEWORK_README.MD
+### 1. MAVEN LEARNING
 * Maven is a build tool, like gradle.
 * Let say in spring or springboot project we need to use SQL connector, so for that we need Sql connector jar files to use in our project.
 * So all this download task is done by maven build tool.
@@ -20,13 +19,13 @@
 * first Maven search in your local repository, if not found in local then it will look to remote repository.
 * YT link : https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
 
-### B2. HOW TO CREATE A MAVEN PROJECT IN INTELLIJIDEA OR ECLIPSE, AND LATER A SPRING PROJECT FROM IT
+### 2. HOW TO CREATE A MAVEN PROJECT IN INTELLIJIDEA OR ECLIPSE, AND LATER A SPRING PROJECT FROM IT
 * YT link : https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
 * This is make sure you have pom.xml file.
 * In intellijIdea, just create new project, chose maven archetype and select archetype, it will create a project wiht pom.xml
 * for spring boot, there only you have to chose spring boot when creating new project, not for spring core, framework project.
 
-### B3. SPRING FRAMEWORK LEARNING (JUST SEE YT LINKS PLAYLIST OF SPRING FRAMEWORK, YOU WILL UNDERSTAND ALL AND YOU NOT NEED TO DO ANY OTHER LEARNING, THEY ARE ENOUGH)
+### 3. SPRING FRAMEWORK LEARNING (Beans, dependency injection, IOC)
 * YT Link Follow Part 1 (Most Important) - https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=1&ab_channel=Telusko
     * This will give you complete idea of Spring Framework,
         * Project Creation in IntellijIdea, Dependency Injection, What is bean, Bean Factory and ApplicationContext

@@ -1,16 +1,17 @@
-# SPRING FRAMEWORK LEARNING (SPRING, SPRING FRAMEWORK, SPRING CORE, SPRING MVC, SPRING AOP, SPRING SECURITY) - YOUTUBE WISE
+# SPRING FRAMEWORK LEARNING - YOUTUBE WISE
 * Best way to learn by watching and coding, But in youtube sequence
 
-## TODO
-* LEARN ABOUT REGEX IN JAVA
 
-## MY LEARNING (SPRING FRAMEWORK, SPRING, SPRING CORE, SPRING AOP) (Completely done with project also attached in this repo - Now you can do brainstorming type doubts in it like in stackoverflow)
+## MY LEARNING 
+* Completely done with project also attached in this repo 
+  *  Now you can do brainstorming type doubts in it like in stackoverflow
 * OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
   * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
     * This includes one video for learning spring
   * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
     * This has whole playlist from spring and many spring and spring plus concepts
-### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER 
+* (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 #### 1.INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
   * It is open source framework, currently owned by VMWare.
