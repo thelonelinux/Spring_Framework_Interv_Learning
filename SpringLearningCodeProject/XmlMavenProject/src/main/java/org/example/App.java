@@ -11,8 +11,8 @@ import org.springframework.core.io.ClassPathResource;
 
 /**
  * This is sample project to learn spring core, ioc, dependency injection, annotation in XML based Configuration
- * To run this project you can have any jdk version 8 and above
- * maven version is 3.9.9. Any other maven versions in 3 will work good with jdk 8
+ * To run this project, use JDK 25 or newer LTS releases
+ * Maven version is 3.9.9
  * You have to add dependency org.springFramework in pom.xml file to get BeanFactory, ApplicationContext classes libraries and other useful things
  *  This dependency org.SpringFramework add here in pom.xml is good version, higher version won't find BeanFActory atleast.
  * XML header and all that find in the YT learning of SpringFramework
