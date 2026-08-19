@@ -2,7 +2,7 @@
 * Best way to learn by watching and coding, But in youtube sequence
 
 
-## MY LEARNING 101
+## MY LEARNING 101 (SPRING FRAMEWORK, IOC, DEPENDENCY INJECTION, BEANS, BEANS LIFECYCLE, ANNOTATION, CONFIGURATION)
 * Completely done with project also attached in this repo 
   *  Now you can do brainstorming type doubts in it like in stackoverflow
 * OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
