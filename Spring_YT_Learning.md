@@ -2,7 +2,7 @@
 * Best way to learn by watching and coding, But in youtube sequence
 
 
-## MY LEARNING 
+## MY LEARNING 101
 * Completely done with project also attached in this repo 
   *  Now you can do brainstorming type doubts in it like in stackoverflow
 * OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
@@ -12,7 +12,8 @@
     * This has whole playlist from spring and many spring and spring plus concepts
 ### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER 
 * (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
-#### 1.INTRODUCTION TO SPRING FRAMEWORK (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
+#### 1.INTRODUCTION TO SPRING FRAMEWORK 
+* (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 * WHAT IS SPRING FRAMEWORK
   * It is open source framework, currently owned by VMWare.
   * Enterprise and Internet Support
@@ -52,7 +53,8 @@
     * STRUTS
   * See in Youtube for component example
 
-#### 2.INVERSION OF CONTROL AND DEPENDENCY INJECTION (https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer)
+#### 2.INVERSION OF CONTROL AND DEPENDENCY INJECTION 
+* (https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer)
 * INVERSION OF CONTROL
   * It is core component of Spring Framework
   * It is a software design principle which is independent of any language
@@ -103,7 +105,8 @@
   * Example see in code or in youtube only for injecting dependency injection.
 * LEARN WITH CODE NOW FOR THIS STUFFS IN YOUTUBE SHOWN OR WATCH YOUTUBE ONLY.
 
-#### 3.BEAN FACTORY AND APPLICATION CONTEXT (IOC CONTAINERS) (https://www.youtube.com/watch?v=tH6rd_OkClM&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=2&ab_channel=LazyProgrammer)
+#### 3.BEAN FACTORY AND APPLICATION CONTEXT (IOC CONTAINERS) 
+* (https://www.youtube.com/watch?v=tH6rd_OkClM&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=2&ab_channel=LazyProgrammer)
 * These two are the containers present in Spring Core components of spring IOC, which completely manages the lifecycle of bean/object.
 * WHAT IS BEAN?
   * It is objects maintained and managed by the IOC containers.
@@ -239,7 +242,8 @@
         * GK - There is nothing like maven is installed, Until you put MAVEN_HOME or M2_HOME environment variable in System environment variable and system path, until then they won't be shown when you 
           * check via $$ mvn --version.
 
-#### 4.SPRING BEANS (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
+#### 4.SPRING BEANS 
+* (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 * WHAT ARE SPRING BEANS
   * They are simple Java Objects
   * Managed by SpringIOC
@@ -316,7 +320,8 @@
   * They are used to create and configure objects in an application.
 *
 
-#### 5. SPRING BEAN LIFE CYCLE (https://www.youtube.com/watch?v=vbo6l7HIyVk&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=3&ab_channel=LazyProgrammer)
+#### 5. SPRING BEAN LIFE CYCLE 
+* (https://www.youtube.com/watch?v=vbo6l7HIyVk&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=3&ab_channel=LazyProgrammer)
 * LIFE CYCLE OF AN OBJECT
   * When and how it is created
   * How it behaves
@@ -391,7 +396,8 @@
       * Same example code only for springbootapplication context as above.
 * 
 
-#### 6. SPRING BEAN SCOPE (https://www.youtube.com/watch?v=MSVvzTuGuIs&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=5&ab_channel=LazyProgrammer)
+#### 6. SPRING BEAN SCOPE 
+* (https://www.youtube.com/watch?v=MSVvzTuGuIs&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=5&ab_channel=LazyProgrammer)
 * When creating the bean, you don't only control the Dependencies and Configuration, but also the scope of that bean definition.
 * SCOPE OF BEAN
   * SPRING FRAMEWORK SUPPORTS 6 SCOPES (4 OF WHICH ARE AVAILABLE ONLY WHEN YOU ARE USING WEB APPLICATION CONTEXT)
@@ -443,7 +449,8 @@
     * <bean id="myBean" class="com.example.MyBean" scope="prototype"/.>
 * 
 
-#### 7. SPRING BEAN ANNOTATION (https://www.youtube.com/watch?v=v4hYFYATF_Y&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=12&ab_channel=LazyProgrammer)
+#### 7. SPRING BEAN ANNOTATION 
+* (https://www.youtube.com/watch?v=v4hYFYATF_Y&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=12&ab_channel=LazyProgrammer)
 * Just same topic as above bean related only but all in one and in sequence only.
 * USER DEFINED BEAN
   * By default bean name is same as method name, but user defined can be done in this way
@@ -466,7 +473,8 @@
   * This is done only to get some info about that bean.
 * 
 
-#### 8. ANNOTATION BASED CONFIGURATION (https://www.youtube.com/watch?v=lRO7n8BZj9g&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=8&ab_channel=LazyProgrammer)
+#### 8. ANNOTATION BASED CONFIGURATION 
+* (https://www.youtube.com/watch?v=lRO7n8BZj9g&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=8&ab_channel=LazyProgrammer)
 * OVERVIEW
   * We can do configuration in spring using XML and Annotations or both in same project.
   * The question is "Are annotations better than XML for configuration in Spring?"
@@ -540,12 +548,15 @@
 * END OF YOUTUBE PLAYLIST = LAZY PROGRAMMER FOR SPRING FRAMEWORK LEARNING
 * -------------------- END ----------------------------*
 
-### B.PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+### B.PLAYLIST OF YOUTUBE - SPRING FRAMEWORK WITH MAVEN 
+* (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * HERE MOSTLY CODING STUFFS AND UNDERSTANDING WITH PROJECTS
-#### 1.JAVA SPRING DEPENDENCY INJECTION (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+#### 1.JAVA SPRING DEPENDENCY INJECTION 
+* (https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * JUST INTRO - Object beans is required in spring core
 
-#### 2.INTRODUCTION TO MAVEN THEORY (https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=2&ab_channel=Telusko)
+#### 2.INTRODUCTION TO MAVEN THEORY 
+* (https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=2&ab_channel=Telusko)
 * MAVEN
   * Build Tool, Owner is Apache.
   * Why we need maven
@@ -557,7 +568,8 @@
 * GRADLE
   * Build tool like maven for java.
 
-#### 3.MAVEN TUTORIAL PRACTICAL (https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko)
+#### 3.MAVEN TUTORIAL PRACTICAL 
+* (https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko)
 * www.spring.io
   * you can download the jar files from here.
   * go to project, >> go to spring framework
@@ -579,11 +591,13 @@
   * You will see what type of application you have and its packaging (jar or war if web application)
 * PROJECT WILL CONTINUE IN NEXT LECTURE YT PLAYLIST
 
-#### 4.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=jdRd5hR9ON8&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=4&ab_channel=Telusko)
+#### 4.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. 
+* (https://www.youtube.com/watch?v=jdRd5hR9ON8&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=4&ab_channel=Telusko)
 * DEPENDENCY INJECTION BY CODE PRACTISE
   * project continue in next class
 
-#### 5.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=Lw_PszjKu68&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=5&ab_channel=Telusko)
+#### 5.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. 
+* (https://www.youtube.com/watch?v=Lw_PszjKu68&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=5&ab_channel=Telusko)
 * XML Tag to define bean in project only continues.. 
   * XML needs custom tags which needs some definition. Definition you can get in spring websites.
   * <beans xmlns="http://www.springframework.org/schema/beans"
@@ -593,7 +607,8 @@
   * Here advantage we will have is in xml we don't have to recompile like java sorce code. So this is advantage we are getting when creating beans in xml.
 * 
 
-#### 6.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. (https://www.youtube.com/watch?v=4fZJfqpnyWg&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=6&ab_channel=Telusko)
+#### 6.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd.. 
+* (https://www.youtube.com/watch?v=4fZJfqpnyWg&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=6&ab_channel=Telusko)
 * DIFFERENT TYPES ON CONFIGURATION
   * Context object is responsible to give you beans. (ApplicationContext)
     * Three types of Configuration
@@ -631,7 +646,8 @@
   * On adding this 6.1.4 Version for springFramework which is latest of it's dependency, It won't be able to identify bean factory.
 * 
 
-#### 7.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=1MDpTdCit9s&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=7&ab_channel=Telusko)
+#### 7.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..
+* (https://www.youtube.com/watch?v=1MDpTdCit9s&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=7&ab_channel=Telusko)
 * PROJECT CODE LEARNING CONTINUES..
   * See more in the project code added in this repo.
   * You can run this maven project once you pick it up and run it separately, 
@@ -639,12 +655,14 @@
   * so the ide won't identify it as a maven project.
 * 
 
-#### 8.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=oTy2pUILpdQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=8&ab_channel=Telusko)
+#### 8.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..
+* (https://www.youtube.com/watch?v=oTy2pUILpdQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=8&ab_channel=Telusko)
 * CONSTRUCTOR INJECTION
   * Check in code project only
 * 
 
-#### 9.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..(https://www.youtube.com/watch?v=HFt_q0wYYLU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=9&ab_channel=Telusko)
+#### 9.SPRING CORE FRAMEWORK (xmL BASED PROJECT) contd..
+* (https://www.youtube.com/watch?v=HFt_q0wYYLU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=9&ab_channel=Telusko)
 * AUTOWIRED ANNOTATION
   * Check in code project only, Computer will have hardDisk injected in it using @Autowired,
   * @Autowired will create bean for computer class by finding the bean in xml configuration from context container.
@@ -652,7 +670,8 @@
 * Also check how to make computer bean in xml and add hardDisk property in it. using bean tag in xml instead of using @Autowired in computer class for hardDisk injection.
 * END OF XML BASED PROJECT AND ITS SPRING CORE AND SPRING CONCEPTS
 
-#### 10.SPRING CORE ANNOTATIONS (NEW PROJECT - NON XML - JAVA BASED CONFIGURATION) (https://www.youtube.com/watch?v=5zUTc-kge8I&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=10&ab_channel=Telusko)
+#### 10.SPRING CORE ANNOTATIONS (NEW PROJECT - NON XML - JAVA BASED CONFIGURATION) 
+* (https://www.youtube.com/watch?v=5zUTc-kge8I&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=10&ab_channel=Telusko)
 * NON-XML BASED CONFIGURATION (JAVA BASED CONFIGURATION - Create @Configuration class and make @Bean there only)
   * CREATE NEW PROJECT
     * Add that same spring framework dependency only, as you have added above.
@@ -672,7 +691,8 @@
   * You can have multiple config class.
 * MOSTLY SEE IN CODE PROJECT, YOU WILL LEARN FROM THERE.
 
-#### 11.SPRING CORE ANNOTATION COMPONENT AUTOWIRED PRIMARY QUALIFIER (Java Based Configuration) contd..(https://www.youtube.com/watch?v=VIaBbNaYDaU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=11&ab_channel=Telusko)
+#### 11.SPRING CORE ANNOTATION COMPONENT AUTOWIRED PRIMARY QUALIFIER (Java Based Configuration) contd..
+* (https://www.youtube.com/watch?v=VIaBbNaYDaU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=11&ab_channel=Telusko)
 * MOSTLY SEE IN PROJECT CODE ONLY
   * @COMPONENT
     * Put in every class of which you don't want to make bean in config class. 
@@ -699,7 +719,8 @@
 * LEARNING ABOUT HOW TO CREATE MAVEN PROJECT, SPRING PROJECT AND ALL BASICS.
 * -- END OF PROJECT WISE LEARNING FOR SPRING FRAMEWORK, SPRING , SPRING CORE -----
 
-#### 12. SPRING AOP (https://www.youtube.com/watch?v=Ft29HgsePfQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
+#### 12. SPRING AOP 
+* (https://www.youtube.com/watch?v=Ft29HgsePfQ&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&ab_channel=Telusko)
 * IN LAYMAN WORDS
   * It is like Trigger. Use @Aspect annotation in aspect class. @Before or @After in its method. There you mention before what function it should be called.
   * So when such method name is called, it will trigger this Aspect class method before that function.
@@ -711,25 +732,29 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING MVC) (YT Deep dive learning done, But project not created here myself)
-### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+## MY LEARNING 102 (SPRING MVC) (YT Deep dive learning done, But project not created here myself)
+### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER 
+* (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
 * OVERVIEW OF THIS PLAYLIST
   * Total 6 videos.
   * Simple web application building using spring boot, using dependencies spring web and thymeleaaf
   * Here controller is just that /home will render the hello.html. So this is how it is different from our usual apis.
   * Once only learning this 6 YT videos will enough for you to understand how and what spring mvc.
 * 
-#### 1.INTRODUCTION TO SPRING MVC (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+#### 1.INTRODUCTION TO SPRING MVC 
+* (https://www.youtube.com/watch?v=U62P5vXaNdk&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
 * IN LAYMAN WORDS
   * See part 3 below
   * This is just web-application you make using spring framework. 
   * Later the project was made using spring boot only (see part 3)
 
-#### 2. HOW SPRING MVC WORK? COMPLETE WORKFLOW OF SPRING MVC REQUEST (https://www.youtube.com/watch?v=IkDsHHLwg4Y&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
+#### 2. HOW SPRING MVC WORK? COMPLETE WORKFLOW OF SPRING MVC REQUEST 
+* (https://www.youtube.com/watch?v=IkDsHHLwg4Y&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=2&ab_channel=LazyProgrammer)
 * IN LAYMAN WORDS
   * It just specifying the flow of spring MVC how it will render
 
-#### 3. SPRING MVC WITH ZERO CONFIGURATION USING SPRINGBOOT AND THYMELEAF (https://www.youtube.com/watch?v=1lMyJMZzcpM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=3&ab_channel=LazyProgrammer)
+#### 3. SPRING MVC WITH ZERO CONFIGURATION USING SPRINGBOOT AND THYMELEAF 
+* (https://www.youtube.com/watch?v=1lMyJMZzcpM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=3&ab_channel=LazyProgrammer)
 * IN LAYMAN WORDS
   * MODEL IS DB
   * VIEW IS HTML PAGE
@@ -743,7 +768,8 @@
   * Here they made project using spring boot only, by using jar file, and dependencies like spring web and thymeleaf only.
 
  
-#### 4. SPRING BOOT MVC TUTORIAL - IMPLEMENTING USER REGISTRATION AND LOGIN WITH JPA AND THYMELEAF (https://www.youtube.com/watch?v=i2YxccYlGWw&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=4&ab_channel=LazyProgrammer)
+#### 4. SPRING BOOT MVC TUTORIAL - IMPLEMENTING USER REGISTRATION AND LOGIN WITH JPA AND THYMELEAF 
+* (https://www.youtube.com/watch?v=i2YxccYlGWw&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=4&ab_channel=LazyProgrammer)
 * PROJECT BUILDING AND LEARNING VIA CODING
   * You could have created the web mvc project from maven archetype from intellijIdea only.
   * but we are creating from the spring.io as spring boot project as it will give all the ready configuration to us.
@@ -755,12 +781,14 @@
 * (Very Very IMP)You can see DB in db console in web browser after starting the application. We don't need sql server ide in our computer for it.
 * So just register, it will add user details in table.
 
-#### 5. SPRING MVC APPLICATION DEMO - (above project) Cont.. (https://www.youtube.com/watch?v=UdVXuT0OJ8g&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=5&ab_channel=LazyProgrammer)
+#### 5. SPRING MVC APPLICATION DEMO - (above project) Cont.. 
+* (https://www.youtube.com/watch?v=UdVXuT0OJ8g&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=5&ab_channel=LazyProgrammer)
 * PROJECT CREATED ABOVE
   * This will just show us the demo of using project created in playlist 5 above
 * 
 
-#### 6. SIMPLIFY CONFIGURATION USING @EnableWebMvc IN MVC APPLICATION (https://www.youtube.com/watch?v=N0dzymNyiHM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=6&ab_channel=LazyProgrammer)
+#### 6. SIMPLIFY CONFIGURATION USING @EnableWebMvc IN MVC APPLICATION 
+* (https://www.youtube.com/watch?v=N0dzymNyiHM&list=PLOktGWstEblpowQsGUoR8xu9gIzpq1pxw&index=6&ab_channel=LazyProgrammer)
 * @EnableWebMvc (VERY IMP TO LEARN THIS - GOOD EXPLAINED - FOR NOW JUST NOT GOING IN VERY DETAIL AS NOT REAL LIFE EXAMPLE I AM USING RIGHT NOW)
   * How this annotation made our spring mvc work much easier
   * web.xml configuration
@@ -790,7 +818,7 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING SECURITY) (Done but not doing deep dive learning - no project created just seen YT videos sort of)
+## MY LEARNING 103 (SPRING SECURITY) (Done but not doing deep dive learning - no project created just seen YT videos sort of)
 * IN LAYMAN WORDS
   * Just learn some youtube playlist attached here.
   * No need to go deep dive.
@@ -806,7 +834,7 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING JDBC, SPRING ORM)
+## MY LEARNING 104 (SPRING JDBC, SPRING ORM)
 * YT link : https://www.youtube.com/watch?v=KRMNTudb0AY&list=PL0zysOflRCekeiERASkpi-crREVensZGS&ab_channel=LearnCodeWithDurgesh
   * Learning from this playlist. Learn only spring JDBC part from here.
   * https://www.youtube.com/watch?v=DOk4RV0_n1Y&list=PL0zysOflRCekeiERASkpi-crREVensZGS&index=29&ab_channel=LearnCodeWithDurgesh
@@ -817,4 +845,4 @@
 
 ----------------------------------------------------------------
 
-## MY LEARNING (SPRING BOOT, SPRING WITH REST APIS)
+## MY LEARNING 105 (SPRING BOOT, SPRING WITH REST APIS)
