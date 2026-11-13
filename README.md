@@ -1,65 +1,33 @@
 # SPRING FRAMEWORK LEARNING (SPRING FRAMEWORK/ SPIRNG BOOT)
-* VERY FAST EFFICIENT SECRET WAY OF LEARNING
-  * MORE FOCUS ON DIRECTLY GOING IN THE VIDEO, LEARNING IT, 
-    * STORING THAT VIDOE FOR THAT SPECIFIC TOPIC AND REMEMBERING IT LIFETIME
-    * NOTES ARE GOOD INTERVIEW ONLY, AND RE-CHECKING OLD CODE NEEDS DOCUMENTATION ANYWAYS
-    * SO HERE PREPARE ONLY VIDOES AND MAKE LIST OF TOPICS IN THAT SPECIFIC VIDEO AND LOOK FOR THAT SPECIFIC VIDEO ONLY IN FAST PACE MODE
-
-
-* Learning Spring Framework core and all other spring framework concepts
-* Spring/Spring Boot Road Map (check this for topicwise sequence learning) : https://www.geeksforgeeks.org/spring/
-* MY LEARNING APPROACH FOR INTERVIEW
+* Youtube Learning for FAST Understanding with underlying principles rather than remembering 
+* COMPLETE TOPICS : https://www.geeksforgeeks.org/spring/
+* INTERVIEW LEARN
   * 1. FROM INTERVIEWBIT - PDF ATTACHED (CHECK AND LEARN)
   * 2. FROM GFG INTERVIEWBIT (https://www.geeksforgeeks.org/spring/)
-  * 3. PRACTICE CODE AND LEARN (Will be adding codes here and learn in this repo only)
+
+* MY LEARNING 101 (ONE TO RULE THEM ALL)
+  * For bean/ioc/and basic spring, spring boot, controller, services, jpa, mvc
+    * https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer
+    * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
+    * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
+
+* for other topics in spring - check Spring_YT_Learning.md
 
 
-## MY LEARNING - Spring Framework with Maven Tutorial 
-* FOR DETAIL YT LEARNING SEE YUTUBELEARN_SPRINGFRAMEWORK_README.MD
+
+## A. MY LEARNING (MISCELLANEOUS)
 ### 1. MAVEN LEARNING
-* Maven is a build tool, like gradle.
-* Let say in spring or springboot project we need to use SQL connector, so for that we need Sql connector jar files to use in our project.
-* So all this download task is done by maven build tool.
-* So this is what main task for maven. It will also take care of versions and download accordingly.
-* artifactID and groupId is like finding that dependency by unique project identification.
-* Make sure you are connected with the internet when downloading the jar file from remote repository.
-* first Maven search in your local repository, if not found in local then it will look to remote repository.
 * YT link : https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
 
 ### 2. HOW TO CREATE A MAVEN PROJECT IN INTELLIJIDEA OR ECLIPSE, AND LATER A SPRING PROJECT FROM IT
 * YT link : https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
-* This is make sure you have pom.xml file.
-* In intellijIdea, just create new project, chose maven archetype and select archetype, it will create a project wiht pom.xml
-* for spring boot, there only you have to chose spring boot when creating new project, not for spring core, framework project.
 
-### 3. SPRING FRAMEWORK LEARNING (Beans, dependency injection, IOC)
-* YT Link Follow Part 1 (Most Important) - https://www.youtube.com/watch?v=JNeAwX_MOcU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=1&ab_channel=Telusko
-    * This will give you complete idea of Spring Framework,
-        * Project Creation in IntellijIdea, Dependency Injection, What is bean, Bean Factory and ApplicationContext
-        * BeanFactory being deprecated, How to make object beans in different ways.
-        * Very importantly learn this, you will understand whole concept of core Spring Framework
-* YT Link follow Part 2 (Most Important) - https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=2&ab_channel=LazyProgrammer
-    * In this YT link, You will bit more about Spring core, beans, with good theory explanation
-* but for once learn this - https://www.geeksforgeeks.org/introduction-to-spring-framework/
-*
-* DEPENDENCY INJECTION
-    * THREE TYPES
-        * VIA CONSTRUCTOR
-        * VIA SETTER METHOD
-        * VIA FIELD INJECTION (USING @AUTOWIRED). Like a Data Member of Class.
-* INVERSION OF CONTROL CONTAINER (BEAN CONTAINERS)
-    * In Lay Man words - https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer
-    * (Very Very Imp - As we do in IOM also for mapper class as you know)In this YT, You can see real life example to understand it's use case of why object created by programmer is tight coupled and issue we face.
-        * Inversion of control is a core component of Spring Framework
-        * (Very Very Imp) It is a design pattern in which the creation of object is inverted - So now instead of programmer to create the object, it will be done by framework itself.
-        * It is independent of languages.
-        * It describes the way in which object should be created
-        * Control of object creation is inverted. We do this to achieve loose-coupling
-        * This is implemented using Dependency injection. Object are created in Spring Container or Bean factory for say in via xml or via configuration class annotation.
-        * When we use dependency injection to inject and create those beans rather by using new operator. It will find bean/object and create object for ourselves.
-    * TWO TYPES
-        * BEAN FACTORY
-        * APPLICATION CONTEXT
-* WHY SPRING BOOT
-    * We don't have to all these spring framework, it will remove all these boiler plate code
-    * And help programmer to directly begin with main task
+
+
+
+## B. COMPLETE SPRING PROJECT BASED APPLICATION - INDUSTRIAL PROJECT LEARN
+### 1. SPRING CORE, SPRING DEPENDENCY, IOC, MAVEN BUILD TOOL (BEGINEER LEVEL)
+* NOTE - 12 PLAYLIST VIDEO 
+* YOUTUBE PLAYLIST - Spring Framework with Maven Tutorial
+* LINK : https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=2
+* TOPICS : MAVEN, SPRING, SPRING CORE, SPRING XML BASED ANNOTATION, BEANS,  DEPENDENCY INJECTION (SETTER INJECTIN, CONSTRUCTOR INJECTION), AUTOWIRED

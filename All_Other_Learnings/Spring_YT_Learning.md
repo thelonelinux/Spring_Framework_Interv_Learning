@@ -1,57 +1,9 @@
 # SPRING FRAMEWORK LEARNING - YOUTUBE WISE
 * Best way to learn by watching and coding, But in youtube sequence
 
-
-## MY LEARNING 101 (SPRING FRAMEWORK, IOC, DEPENDENCY INJECTION, BEANS, BEANS LIFECYCLE, ANNOTATION, CONFIGURATION)
-* Completely done with project also attached in this repo 
-  *  Now you can do brainstorming type doubts in it like in stackoverflow
-* OTHER PLAYLIST YOU CAN FOLLOW FOR SPRING LEARNING:
-  * https://www.youtube.com/watch?v=If1Lw4pLLEo&t=101s&ab_channel=Telusko
-    * This includes one video for learning spring
-  * https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&ab_channel=Telusko
-    * This has whole playlist from spring and many spring and spring plus concepts
-### A.PLAYLIST OF YOUTUBE - LAZY PROGRAMMER 
-* (https://www.youtube.com/watch?v=wteFNBKs8oU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=1&ab_channel=LazyProgrammer)
 #### 1.INTRODUCTION TO SPRING FRAMEWORK 
 * (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
-* WHAT IS SPRING FRAMEWORK
-  * It is open source framework, currently owned by VMWare.
-  * Enterprise and Internet Support
-  * As compared to JEE, it is lightweight for packaging
-  * Modest
-* SPRING IN THE ENTERPRISE
-  * No need for heavy application servers. Just tomcat embedded is fine
-  * Provides abstraction for enterprise systems.
-  * Focus on business logic. Less code
-* DEPENDENCY MANAGEMENT
-  * Spring manages runtime dependencies - By allowing the framework to maintain the runtime objects.
-    * So that we don't have to deal with the creation and maintenance.
-    * This greatly decreases the complexity of the code.
-    * Also helps in memory management, even though we have garbage collection.
-  * Configure or create them (object) once only.
-    * Managed either through applicationContext or BeanFactory
-* FRAMEWORK RUNTIME COMPONENTS
-  * SPRING CORE CONTAINER COMPONENTS
-    * CORE
-    * BEANS
-    * CONTEXT
-    * EXPRESSION LANGUAGE
-  * AOP COMPONENTS
-    * AOP
-    * ASPECTS
-    * INSTRUMENTATION
-  * DATA ACCESS/INTEGRATION COMPONENT
-    * JDBC
-    * ORM
-    * OXM
-    * JMS
-    * TRANSACTIONS
-  * WEB RELATED COMPONENTS (MVC/REMOTING)
-    * WEB
-    * SERVLET
-    * PORTLET
-    * STRUTS
-  * See in Youtube for component example
+
 
 #### 2.INVERSION OF CONTROL AND DEPENDENCY INJECTION 
 * (https://www.youtube.com/watch?v=8xBF3RUMQfU&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=4&ab_channel=LazyProgrammer)
