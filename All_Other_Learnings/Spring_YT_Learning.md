@@ -1,6 +1,24 @@
 # SPRING FRAMEWORK LEARNING - YOUTUBE WISE
 * Best way to learn by watching and coding, But in youtube sequence
 
+## A. MY LEARNING (MISCELLANEOUS)
+### 1. MAVEN LEARNING
+* YT link : https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
+
+### 2. HOW TO CREATE A MAVEN PROJECT IN INTELLIJIDEA OR ECLIPSE, AND LATER A SPRING PROJECT FROM IT
+* YT link : https://www.youtube.com/watch?v=uEYjXpMDJiU&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=3&ab_channel=Telusko
+
+
+
+
+## B. COMPLETE SPRING PROJECT BASED APPLICATION - INDUSTRIAL PROJECT LEARN
+### 1. SPRING CORE, SPRING DEPENDENCY, IOC, MAVEN BUILD TOOL (BEGINEER LEVEL)
+* NOTE - 12 PLAYLIST VIDEO 
+* YOUTUBE PLAYLIST - Spring Framework with Maven Tutorial
+* LINK : https://www.youtube.com/watch?v=dqJanLvjDqc&list=PLsyeobzWxl7rFkYFysfTwBu1JBPaNNDrk&index=2
+* TOPICS : MAVEN, SPRING, SPRING CORE, SPRING XML BASED ANNOTATION, BEANS,  DEPENDENCY INJECTION (SETTER INJECTIN, CONSTRUCTOR INJECTION), AUTOWIRED
+
+## C. YOUTUBE WISE LEARNING
 #### 1.INTRODUCTION TO SPRING FRAMEWORK 
 * (https://www.youtube.com/watch?v=ymvjY71eVDA&list=PLOktGWstEbloSPMJ1unePUM6RBRq5PITf&index=6&ab_channel=LazyProgrammer)
 
